@@ -1,0 +1,57 @@
+.debug-container * {
+  outline: 0.2vw dashed;
+}
+
+.debug-container > * {
+  outline-color: rgba(180, 150, 30, 1);
+  background-color: rgba(255, 225, 105, 0.15);
+}
+
+.debug-container > * > * {
+  outline-color: rgba(180, 100, 30, 1);
+  background-color: rgba(255, 175, 105, 0.15);
+}
+
+.debug-container > * > * > * {
+  outline-color: rgba(180, 30, 30, 1);
+  background-color: rgba(255, 105, 105, 0.15);
+}
+
+.debug-container > * > * > * > * {
+  outline-color: rgba(80, 180, 80, 1);
+  background-color: rgba(155, 255, 155, 0.15);
+}
+
+.debug-container > * > * > * > * > * {
+  outline-color: rgba(30, 130, 180, 1);
+  background-color: rgba(105, 205, 255, 0.15);
+}
+
+.debug-container > * > * > * > * > * > * {
+  outline-color: rgba(0, 25, 180, 1);
+  background-color: rgba(75, 100, 255, 0.15);
+}
+
+.debug-container > * > * > * > * > * > * > * {
+  outline-color: rgba(75, 0, 180, 1);
+  background-color: rgba(150, 75, 255, 0.15);
+}
+
+.debug-btn {
+  display: block;
+  position: fixed;
+  z-index: 10;
+  bottom: 14px;
+  right: 4px;
+  width: 7vw;
+  height: 7vw;
+  outline: none;
+  border: solid 2px rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  background-color: rgba(100, 255, 100, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.debug-btn--active {
+  background-color: rgba(255, 100, 100, 0.5);
+}
