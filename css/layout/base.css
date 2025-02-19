@@ -1,0 +1,40 @@
+html {
+	font-size: 20px;
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	background-color: rgba(255, 255, 255, 1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: var(--t-wt);
+	color: var(--t1);
+}
+
+b, strong {
+	font-weight: var(--b-wt);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: var(--h-wt);
+	color: var(--h1);
+}
+
+code, kbd, pre, samp {
+  font-family: Monospace, Courier;
+}
+
+sub, sup {
+  position: relative;
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
