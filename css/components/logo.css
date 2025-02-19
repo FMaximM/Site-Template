@@ -1,0 +1,13 @@
+.logo {
+  gap: 8px;
+}
+
+.logo__img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo__txt {
+  font-weight: var(--h-wt);
+  font-size: 1.3rem;
+}
