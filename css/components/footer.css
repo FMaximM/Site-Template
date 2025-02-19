@@ -1,0 +1,14 @@
+.footer {
+	width: 100vw;
+	padding: 5vw 0;
+	background-color: var(--f);
+	color: var(--t2);
+}
+
+.footer .container {
+	justify-content: space-between;
+}
+
+.footer__copy {
+  
+}
